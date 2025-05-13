@@ -5,7 +5,7 @@ import * as usersControllers from '../../controllers/quiz/usersControllers.js';
 const router = express.Router();
 
 
-router.delete('/unsubscribe', usersControllers.unsubscribeUser);
+router.delete('/Unsubscribe', usersControllers.unsubscribeUser);
 
 router.get('/seed', usersControllers.seedUsers);
 
