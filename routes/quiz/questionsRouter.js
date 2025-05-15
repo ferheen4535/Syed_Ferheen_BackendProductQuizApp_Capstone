@@ -13,7 +13,7 @@ router.get('/seed', questionsControllers.seedQuestions);
 
 // Get all questions
 router.get('/', questionsControllers.getQuestions);
-router.put('/:id', questionsControllers.updateQuestion);
+router.put('/', questionsControllers.getQuestions);
 router.post('/', questionsControllers.createQuestions);
 
 export default router;
