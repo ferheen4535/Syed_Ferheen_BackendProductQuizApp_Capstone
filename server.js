@@ -24,9 +24,7 @@ app.use('/quiz/questions', questionsRouter);
 app.use('/quiz/results', resultsRouter);
 app.use('/quiz/users/:id', usersRouter );
 
-
-
-
+app.put('/quiz/questions/:id', questionsRouter);
 
 app.get('/', (req, res) => {
   res.send('Welcome to Badmaash Beards Quiz');
