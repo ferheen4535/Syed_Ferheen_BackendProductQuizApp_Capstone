@@ -46,9 +46,9 @@ For my capstone project, I wanted to elevate this experience by developing a qui
 
 
 ## Screenshots
-![alt text](image-4.png)
+![alt text](image-2.png)
 
-![alt text](image-5.png)
+![alt text](image-3.png)
 
 ## Deployed Site:
 https://syed-ferheen-frontendproductquizapp.onrender.com/
