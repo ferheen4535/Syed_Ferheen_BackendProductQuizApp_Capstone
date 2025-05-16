@@ -39,10 +39,10 @@ For my capstone project, I wanted to elevate this experience by developing a qui
 
 ---
 ## Environment Variables (.env)
-## MONGO_URI=mongodb+srv://<your-mongo-cluster-url>
-### PORT=5055
-### VITE_ADMIN_EMAIL=admin@gmail.com
-### VITE_ADMIN_PASSWORD=password
+MONGO_URI=mongodb+srv://<your-mongo-cluster-url>
+PORT=5055
+VITE_ADMIN_EMAIL=admin@gmail.com
+VITE_ADMIN_PASSWORD=password
 
 
 ## Screenshots
@@ -55,19 +55,18 @@ https://syed-ferheen-frontendproductquizapp.onrender.com/
 
 ## Setup Instructions
 
-# Running the Backend Server
-
-## Install dependencies
+### Running the Backend Server
+Install dependencies
 npm install
 
-## Start server (dev mode)
+### Start server (dev mode)
 npm run dev
 
-## Start server (production mode)
+### Start server (production mode)
 npm start
 
-## Backend will be available at: http://localhost:5055
+### Backend will be available at: http://localhost:5055
 
-## Frontend
+### Frontend
 git clone https://github.com/ferheen4535/Syed_Ferheen_FrontendProductQuizApp_Capstone
 
